@@ -24,7 +24,7 @@
         "typecheck": "npm run typecheck:main && npm run typecheck:preload && npm run typecheck:renderer",
         "typecheck:main": "tsc -p src/main/tsconfig.json --noEmit",
         "typecheck:preload": "tsc -p src/preload/tsconfig.json --noEmit",
-        "typecheck:renderer": "tsc -p src/renderer/tsconfig.json --noEmit"
+        "typecheck:renderer": "vue-tsc -p src/renderer/tsconfig.json --noEmit"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
@@ -42,7 +42,8 @@
         "vite": "^7.3.1",
         "vite-plugin-electron": "^0.29.0",
         "vite-plugin-electron-renderer": "^0.14.6",
-        "vitest": "^4.0.17"
+        "vitest": "^4.0.17",
+        "vue-tsc": "^3.2.5"
     },
     "dependencies": {
         "@nuxt/ui": "^4.5.1",
