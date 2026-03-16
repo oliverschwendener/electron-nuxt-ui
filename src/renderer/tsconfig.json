@@ -1,0 +1,5 @@
+{
+    "extends": "../../tsconfig.renderer.json",
+
+    "include": [".", "../common", "./**/*.ts", "./**/*.vue", "auto-imports.d.ts", "components.d.ts"]
+}
