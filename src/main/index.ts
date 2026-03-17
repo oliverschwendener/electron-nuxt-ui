@@ -7,6 +7,7 @@ import { join } from "path";
     const browserWindow = new BrowserWindow({
         webPreferences: {
             preload: join(__dirname, "..", "dist-preload", "index.js"),
+            spellcheck: false,
         },
     });
 
