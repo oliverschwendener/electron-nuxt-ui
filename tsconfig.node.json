@@ -3,7 +3,6 @@
         "allowSyntheticDefaultImports": true,
         "composite": true,
         "module": "ESNext",
-        "moduleResolution": "Node",
         "paths": {
             "#build/ui": ["./node_modules/.nuxt-ui/ui"],
             "@common/*": ["./src/common/*"]
